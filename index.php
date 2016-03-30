@@ -4,9 +4,8 @@ http://coreymaynard.com/blog/creating-a-restful-api-with-php/
 */
 print_r($_GET);
 
-require_once 'includes/API.class.php';
-class MyAPI extends API
-{
+require_once 'ressources/API.class.php';
+class MyAPI extends API{
     protected $User;
 
     public function __construct($request, $origin) {
