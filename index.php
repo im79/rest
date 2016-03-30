@@ -2,7 +2,6 @@
 /*
 http://coreymaynard.com/blog/creating-a-restful-api-with-php/
 */
-print_r($_GET);
 
 require_once 'ressources/API.class.php';
 class MyAPI extends API{
