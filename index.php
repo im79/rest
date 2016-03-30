@@ -12,7 +12,7 @@ class MyAPI extends API{
 
         // Abstracted out for example
         $APIKey = new Models\APIKey();
-        $User = new Models\User();
+        $User = new Models\User(); 
 
         if (!array_key_exists('apiKey', $this->request)) {
             throw new Exception('No API Key provided');
